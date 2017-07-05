@@ -20,5 +20,5 @@ app.use('/api',router);
 
 //Configure the app to listen for requests on port 3000
 app.listen(3000,function() {
-	console.log('Server is running on PORT:3000');
+	console.log(' ⚙ | Server Listening on http://localhost:3000');
 });
