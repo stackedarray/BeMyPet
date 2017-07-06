@@ -2,6 +2,9 @@
 	<head>
 		<title>Be My Pet!!!</title>
 		<link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="vendor/js/angular.js"></script>
 	</head>
@@ -36,10 +39,21 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-		<hello-world></hello-world>
-		
+
+		<div class="container">
+			<div class="card" style="width: 20rem;">
+			  <img class="card-img-top img-responsive" src="images/dog.jpg" alt="Card image cap">
+			  <div class="card-block">
+			    <h4 class="card-title">Card title</h4>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			    <a href="#"> {{pets}}</a>
+			  </div>
+			</div>
+		</div>
+
 		<script type="text/javascript" src="scripts/app.js"></script>
 		<script type="text/javascript" src="scripts/controllers/main.js"></script>
-		<script type="text/javascript" src="scripts/directives/hello.js"></script>
+		<script type="text/javascript" src="scripts/services/data.js"></script>
 	</body>
 </html>
