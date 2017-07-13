@@ -1,14 +1,15 @@
 'use strict';
 
-angular.module('myPetApp',[]).
+angular.module('myPetApp').
 	controller('mainCtrl',function($scope, dataService) {
 
-		var callback = function(response) {
+		dataService.getPetsData(function(response) {
 			console.log(response.data);
-			$scope.pets = response.data
+			$scope.pets = response.data;
+		});
+
+		$scope.deletePet = function(pet, index) {
+			dataService.deletePet(pet);
+			$scope.pets.splice(index,1);
 		}
-
-		dataService.getData(callback);
-
-		console.log("hey hey");
 	});

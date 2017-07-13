@@ -1,0 +1,10 @@
+[{
+	"name"	: 	"jerry",
+	"img"	:	"../images/jerry.jpg"
+ },{
+ 	"name"	: 	"tiger",
+ 	"img"	:	"../images/tiger.jpg"
+ },{
+ 	"name"	: 	"pikachu",
+ 	"img"	:	"../images/pikachu.jpg"
+}]
