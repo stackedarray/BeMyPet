@@ -9,6 +9,10 @@
   "author": "Nishi Gaba",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.6.5",
     "express": "4.15.3"
+  },
+  "devDependencies": {
+    "webpack": "^3.3.0"
   }
 }
