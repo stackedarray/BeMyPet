@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.5",
-    "express": "4.15.3"
+    "express": "4.15.3",
+    "mongoose": "^4.11.5"
   },
   "devDependencies": {}
 }

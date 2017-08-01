@@ -9,6 +9,8 @@ var express = require('express');
 //Create Instance of Express and Assign it to App
 var app = express();
 
+require('./database');
+
 var router = require('./api');
 
 //Serves the Public Directory when Route of Site is Required
