@@ -9,7 +9,7 @@
   "author": "Nishi Gaba",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.5",
+    "angular": "^1.8.0",
     "express": "4.15.3",
     "mongoose": "^4.11.5"
   },
